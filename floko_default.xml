@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="floko"
+          fetch="https://github.com/"
+          revision="refs/heads/p9.0" />
+
+  <!-- Remove unused projects -->
+  <remove-project name="AICP/platform_manifest" />
+
+  <!-- FlokoROM repositories -->
+  <project path="manifesto" name="FlokoROM/manifesto" remote="floko" />
+
+</manifest>
+

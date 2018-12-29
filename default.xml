@@ -603,4 +603,7 @@
   <!-- AICP manifest -->
   <include name="aicp_default.xml" />
 
+  <!-- FlokoROM manifest -->
+  <include name="floko_default.xml" />
+
 </manifest>
