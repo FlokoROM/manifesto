@@ -7,9 +7,21 @@
 
   <!-- Remove unused projects -->
   <remove-project name="AICP/platform_manifest" />
+  <remove-project name="AICP/build" />
+  <remove-project name="AICP/vendor_aicp" />
 
   <!-- FlokoROM repositories -->
   <project path="manifesto" name="FlokoROM/manifesto" remote="floko" />
+  <project path="build/make" name="FlokoROM/build" remote="floko" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="vendor/aicp" name="FlokoROM/vendor_floko" remote="floko" />
 
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" />
