@@ -12,6 +12,9 @@
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/vendor_aicp" />
+  <remove-project name="android_packages_apps_Phonograph" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/packages/apps/Gallery2" />
 
   <!-- FlokoROM repositories -->
   <project path="manifesto" name="manifesto" remote="floko" />
@@ -31,5 +34,9 @@
 
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" />
+
+  <!-- LineageOS repositories -->
+  <project name="android_external_chromium-webview" path="external/chromium-webview" clone-depth="1" remote="lineage" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="lineage" />
 
 </manifest>
