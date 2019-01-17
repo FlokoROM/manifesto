@@ -28,7 +28,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
-  <project path="packages/apps/AicpExtras" name="packages_apps_AicpExtras" remote="floko" />
+  <project path="packages/apps/AicpExtras" name="packages_apps_Extras" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
   <project path="vendor/aicp" name="vendor_floko" remote="floko" />
 
