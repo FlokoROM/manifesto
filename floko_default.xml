@@ -12,6 +12,7 @@
   <remove-project name="AICP/packages_apps_AICP_OTA"/>
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <remove-project name="AICP/packages_apps_Settings" />
+  <remove-project name="AICP/packages_apps_SnapdragonCamera" />
   <remove-project name="AICP/packages_apps_TilesWallpaper" />
   <remove-project name="AICP/vendor_aicp" />
   <remove-project name="android_packages_apps_Phonograph" />
