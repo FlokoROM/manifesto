@@ -7,7 +7,6 @@
   <remove-project name="crdroidandroid/android" />
   <remove-project name="crdroidandroid/android_build" />
   <remove-project name="crdroidandroid/android_frameworks_base" />
-  <remove-project name="crdroidandroid/android_lineage-sdk" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidFonts" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidMusic" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
@@ -27,7 +26,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
-  <project path="lineage-sdk" name="lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
