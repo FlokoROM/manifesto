@@ -18,7 +18,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
