@@ -32,4 +32,8 @@
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
 
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-9.0" />
+
+  <!-- AOSiP -->
+  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
+  
 </manifest>
