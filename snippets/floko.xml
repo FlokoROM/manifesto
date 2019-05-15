@@ -10,6 +10,7 @@
   <remove-project name="crdroidandroid/android_packages_apps_crDroidFonts" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidMusic" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+  <remove-project name="crdroidandroid/android_packages_apps_LineageParts" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
@@ -27,6 +28,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
