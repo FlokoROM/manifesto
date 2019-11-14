@@ -33,7 +33,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="floko" />
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
   <project path="lineage-sdk" name="lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
