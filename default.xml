@@ -24,11 +24,11 @@
            sync-j="4"
            revision="refs/heads/9.0" />
 
-  <remote name = "gitlab"
-           fetch = "https://gitlab.com/" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
-  <remote name = "bb"
-           fetch = "https://bitbucket.org/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la" />
