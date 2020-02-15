@@ -708,6 +708,7 @@
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/floko.xml" />
+  <include name="snippets/remove.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
