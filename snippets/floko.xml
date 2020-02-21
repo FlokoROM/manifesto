@@ -15,8 +15,10 @@
   <remove-project name="crdroidandroid/android_packages_apps_LineageParts" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <remove-project name="crdroidandroid/android_packages_apps_SetupWizard" />
+  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
 
   <!-- FlokoROM -->
   <project path="android" name="manifesto" remote="floko" />
