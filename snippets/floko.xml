@@ -15,7 +15,6 @@
   <remove-project name="crdroidandroid/android_packages_apps_LineageParts" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
-  <remove-project name="crdroidandroid/android_system_core" />
   <remove-project name="crdroidandroid/android_system_sepolicy" />
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
@@ -44,8 +43,6 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
-
-  <project path="system/core" name="FlokoROM/system_core" remote="gitlab" revision="9.0" />
 
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-9.0" />
 </manifest>
