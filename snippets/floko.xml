@@ -6,7 +6,6 @@
 
   <remove-project name="crdroidandroid/android" />
   <remove-project name="crdroidandroid/android_build" />
-  <remove-project name="crdroidandroid/android_build_soong" />
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <remove-project name="crdroidandroid/android_lineage-sdk" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidFonts" />
@@ -14,7 +13,6 @@
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
   <remove-project name="crdroidandroid/android_packages_apps_LineageParts" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
-  <remove-project name="crdroidandroid/android_system_sepolicy" />
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
 
@@ -29,16 +27,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="floko" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
   <project path="lineage-sdk" name="lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
 
