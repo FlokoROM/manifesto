@@ -2,8 +2,9 @@
 <manifest>
 
   <remote name="floko"
-       fetch="https://github.com/FlokoROM/"
-       revision="refs/heads/10.0" />
+          fetch="https://github.com/FlokoROM/"
+          sync-c="true"
+          revision="refs/heads/10.0" />
 
   <!-- remove-project to replace -->
   <remove-project name="crdroidandroid/android" />
