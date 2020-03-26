@@ -36,3 +36,6 @@ export ALLOW_MISSING_DEPENDENCIES=true
 brunch <device> 2>&1 | tee ~/log/floko_$(date '+%Y%m%d_%H-%M-%S').log
 ```
 
+## I want to make my build as OFFICIAL
+
+Great. Please read this article: https://github.com/FlokoROM/manifesto/wiki/How-to-official
