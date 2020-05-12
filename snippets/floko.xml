@@ -39,6 +39,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="floko" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
 </manifest>
