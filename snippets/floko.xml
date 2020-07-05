@@ -17,11 +17,9 @@
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <remove-project name="crdroidandroid/android_packages_apps_SetupWizard" />
   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
-  <remove-project name="crdroidandroid/android_system_bt" />
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
-  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
 
   <!-- FlokoROM -->
   <project path="android" name="manifesto" remote="floko" />
@@ -36,14 +34,12 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="floko" />
   <project path="lineage-sdk" name="lineage-sdk" remote="floko" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="floko" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="floko" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="floko" />
-  <project path="system/bt" name="system_bt" remote="floko" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
 </manifest>
