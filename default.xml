@@ -2,11 +2,15 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+           fetch="https://github.com"
+           sync-c="true" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -20,12 +24,6 @@
 
   <remote  name="crdroid"
            fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/11.0" />
-
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/11.0" />
@@ -788,6 +786,7 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/floko.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
