@@ -23,7 +23,7 @@
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
 
-  <!-- FlokoROM -->
+  <!-- FlokoROM GitHub -->
   <project path="build/make" name="FlokoROM/build" remote="floko" >
           <copyfile src="core/root.mk" dest="Makefile" />
           <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -44,6 +44,9 @@
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="FlokoROM/vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
+  
+  <!-- FlokoROM GitLab -->
+  <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" />
 
   <!-- LineageOS -->
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
