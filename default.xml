@@ -20,6 +20,12 @@
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-j="4" />
+  
+ <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/10.0" />
 
   <remote  name="crdroid"
            fetch="https://github.com"
