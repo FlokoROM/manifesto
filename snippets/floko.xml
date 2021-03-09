@@ -46,7 +46,7 @@
   <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
   
   <!-- FlokoROM GitLab -->
-  <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" />
+  <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
 
   <!-- LineageOS -->
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
