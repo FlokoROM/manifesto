@@ -7,8 +7,7 @@
 Read:
 
 * [AOSP Guide](https://source.android.com/setup/build/requirements)
-* [LineageOS wiki](https://wiki.lineageos.org/devices/guacamoleb/build)
-* optional: [Japanese Guide](https://dev.maud.io/entry/2019/07/18/howto-build-lineageos-16-0/)
+* [LineageOS wiki](https://wiki.lineageos.org/devices/kebab/build)
 
 ## Download the sources
 
@@ -37,7 +36,3 @@ export ALLOW_MISSING_DEPENDENCIES=true
 ```sh
 brunch <device> 2>&1 | tee ~/log/floko_$(date '+%Y%m%d_%H-%M-%S').log
 ```
-
-## I want to make my build as OFFICIAL
-
-Great. Please read this article and send PM: https://github.com/FlokoROM/manifesto/wiki/How-to-official
